@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    height: 100vh;
+    background-image: url("https://source.unsplash.com/random");
+    background-size: cover ;
+    background-position:  center;
+    background-repeat: no-repeat ;
+}
+.o-clock{
+    margin: 0 auto;
+    width: 25rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+    
+}
+.o-clock .num{
+    top: -20%;
+    position: relative;
+    font-size: 8rem;
+    color: #ffffff;
+}
+
+@media(max-width:1024px){
+    body{
+        height: 577px;
+    }
+    .o-clock .num{
+        font-size: 5rem;
+    }
+}
